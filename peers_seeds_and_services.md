@@ -59,6 +59,9 @@ d9bfa29e0cf9c4ce0cc9c26d98e5d97228f93b0b@bitcanna.rpc.kjnodes.com:42656
 ## Alkia
 2235f1e518c5ea4a412f9dece386348eda356916@bitcanna.alkia.net:26656
 
+## Indonode
+9d8f4def69c13050f97990757b938343a53da0f5@rpc.bitcanna.indonode.net:27657
+
 # Seeds
 ## BitCanna (reseted everyday)
 d6aa4c9f3ccecb0cc52109a95962b4618d69dd3f@seed1.bitcanna.io:26656
@@ -69,6 +72,7 @@ f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
 
 ## kjnodes
 400f3d9e30b69e78a7fb891f60d76fa3c73f0ecc@bitcanna.rpc.kjnodes.com:42659
+
 
 # StateSync Servers and instructions:
 ## BitCanna oficial:
@@ -107,6 +111,9 @@ f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
 
 ## cryptech StateSync
   * https://explorers.cryptech.com.ua/bitcanna/statesync
+
+## Indonode
+  * https://www.indonode.net/mainnet/bitcanna/statesync
 
 # Info, doc and other services from BitCanna validators & partners (feel free to make a PR)
 ### BitCanna Docs
@@ -147,6 +154,10 @@ f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
 
 ### [NODERS]TEAM: Guide, API, RPC, StateSync, Live peer, AdrBook, Useful Commands
 * https://nodeservice.nodersteam.com/title/mainnet/bitcanna
+
+### Indonode : Guide , API , RPC , GRPC , Statesync , Snapshot , Live Peers , Node CLI Cheatsheets , Addrbook , Genesis
+* https://www.indonode.net/mainnet/bitcanna/statesync
+
 
 # RPCs, LCD, GRPC and other endpoints/services 
 ```
@@ -227,6 +238,11 @@ f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
 				"id": "d9bfa29e0cf9c4ce0cc9c26d98e5d97228f93b0b",
 				"address": "bitcanna.rpc.kjnodes.com:42656",
 				"provider": "kjnodes"
+			},
+						{
+				"id": "9d8f4def69c13050f97990757b938343a53da0f5",
+				"address": "rpc.bitcanna.indonode.net:27656",
+				"provider": "Indonode"
 			}
 		]
 	},
@@ -282,6 +298,10 @@ f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
 			{
 				"address": "https://bitcanna-rpc.lavenderfive.com/",
 				"provider": "Lavender.Five Nodes 🐝"
+			},
+			{
+				"address": "https://rpc.bitcanna.indonode.net/",
+				"provider": "Indonode"
 			}
 		],
 		"grpc": [{
@@ -291,6 +311,10 @@ f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
 			{
 				"address": "https://bitcanna-grpc.lavenderfive.com:443/",
 				"provider": "Lavender.Five Nodes 🐝"
+			},
+			{
+				"address": "https://grpc.bitcanna.indonode.net:27657/",
+				"provider": "Indonode"
 			}
 		],
 		"rest": [{
@@ -336,6 +360,10 @@ f0e6c86d769bf5c52f78e01864091690e731643f@bitcanna-seed.panthea.eu:37656
 			{
 				"address": "https://bitcanna-api.lavenderfive.com/",
 				"provider": "Lavender.Five Nodes 🐝"
+			},
+			{
+				"address": "https://api.bitcanna.indonode.net/",
+				"provider": "Indonode"
 			}
 		]
 	},
